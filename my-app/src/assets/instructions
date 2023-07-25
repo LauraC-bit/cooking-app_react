@@ -1,0 +1,10 @@
+Test l'API dans : https://www.themealdb.com/api/json/v1/1/search.php?s=tomato - OK
+
+Aller chercher les données avec Axios - OK
+
+Stocker ces données dans le state (useState) - OK
+
+Afficher des données avec un .map mettre la logique des cartes dans un composant Card.js - OK
+
+BONUS
+Rechercher ce qui est tapé dans l'input
