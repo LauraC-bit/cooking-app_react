@@ -1,0 +1,15 @@
+.ingredientDiv {
+  .ingredientTitle {
+    margin: 0;
+  }
+  .listeIngredients_div {
+    .listeIngredients {
+      list-style: none;
+    }
+
+    column-count: 2;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

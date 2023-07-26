@@ -2,6 +2,16 @@
 // font-family: 'Borel', cursive;
 // font-family: 'Inconsolata', monospace;
 
+@keyframes slidein {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
 html {
   display: flex;
   flex-direction: column;
@@ -55,13 +65,13 @@ body {
 }
 
 .h1-style {
+  &:hover {
+    transform: scale(1.2);
+    color: #aa0000;
+  }
   font-family: "Borel", cursive;
   font-size: calc(8rem + 0.6vmin);
   padding-top: 18px;
   margin: 0;
-
-  @media only screen and (max-width: 1200px) {
-    font-size: calc(6rem + 0.6vmin);
-    margin-bottom: 48px;
-  }
+  position: relative;
 }

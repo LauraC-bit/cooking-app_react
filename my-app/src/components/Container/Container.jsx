@@ -5,7 +5,7 @@ function Container() {
   return (
     <div className="container">
       <header className="header">
-        <h1 className="h1-style">Tomato Lovers</h1>
+        <h1 className="h1-style">Food Lovers</h1>
       </header>
       <main>
         <Main />
